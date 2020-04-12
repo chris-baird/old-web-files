@@ -1,0 +1,29 @@
+//
+// Badge Styles //
+//
+.badge { padding: 4px 6px; vertical-align: middle; }
+.badge-xs { padding: 4px 6px }
+.badge-sm { padding: 8px 12px }
+.badge-md { padding: 10px 16px; font-size: 80%; }
+.badge-lg { padding: 14px 20px; font-size: 90%; }
+.badge-xl { padding: 18px 30px; font-size: 100%; }
+
+.badge-secondary { background: $button-grey-darker; }
+.badge-light { background: $button-grey-lighter; }
+.badge-secondary, .badge-warning, .badge-light { color: $color-dark; }
+
+a {
+	&.badge-secondary {
+		background: $button-grey-darker;
+		&:hover, &:focus {
+			background: $button-grey-darkest;
+			color: $color-dark;
+		}
+	}
+	&.badge-light {
+		background: $button-grey-lighter;
+		&:hover, &:focus {
+			background: $button-grey;
+		}
+	}
+}

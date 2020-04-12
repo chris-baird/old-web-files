@@ -1,0 +1,23 @@
+/* NAV LOGO */
+.nav-logo {
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+.ror-icon {
+  height: 37px;
+  width: 37px;
+}
+
+a {
+  color: red !important;
+}
+
+a:hover {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
